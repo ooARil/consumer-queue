@@ -11,10 +11,6 @@
     <packaging>jar</packaging>
     <artifactId>consumer-core</artifactId>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -40,7 +36,7 @@
     </dependencies>
 
     <build>
-    <finalName>consumer-core-${project.version}</finalName>
+    <finalName>consumer-queue-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
